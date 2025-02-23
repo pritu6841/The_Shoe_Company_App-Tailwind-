@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body class="bg-black max-w-[1440px] mx-auto">
+    <header class="mx-5  flex flex-row items-center justify-between fixed w-[1300px] max-w-[1440px]:">
+        <div>
+            <img class="h-20 w-20 md:h-32 md:w-36" src="./images/shoe-company-logo 1.png" alt="logo">
+            <p class="text-white text-sm mb-2 md:-mt-8 font-bold">The Shoe Company</p>
+        </div>
+        <nav class="hidden md:block md:text-white space-x-4 lg:space-x-8 lg:text-2xl font-bold">
+            <a class="" href="#hero1">Home</a>
+            <a class="" href="#how-it-works">How it works?</a>
+            <a href="#">About</a>
+            <a href="#">Testimonials</a>
+            <a href="#">Contact Us</a>
+        </nav>
+        <button class=" md:hidden text-white text-2xl">☰</button>
+    </header>
+    <section id="hero1" class=" bg-[url('./images/shoe-background.png')] bg-cover md:bg-contain bg-no-repeat bg-right pt-32 ">
+        <div class="flex flex-col md:flex-row items-center md:justify-evenly px-12">
+        <h1 class="text-white font-bold text-4xl md:text-7xl flex items-start md:items-center ">THE <br> SHOE <br>COMPANY</h1>
+        <img src="/images/hero-shoe.png" class="h-[300px] w-[300px] md:h-[400px] md:w-[400px]" alt="">
+        </div>
+    </section>
+    <section id="how-it-works" class="section-conatiner max-w-[1440px] pt-20">
+        <h2 class="mt-10 text-white text-5xl font-bold flex justify-center">Have they finally made the <br> perfect workout shoe?</h2>
+        <div class=" text-white max-w-[1440px] absolute top-[800px] left-[161px]">
+            <h3 class="font-bold text-4xl ">THE HEEL</h3>
+            <p class="font-normal text-xl">The heel is well-built, has <br> appropriate elevation and is <br> not too rigid.</p>
+            <img src="images/arrow-1 1.png" alt="">
+        </div>
+        <div class=" text-white max-w-[1440px] absolute right-80 top-[750px]">
+            <h3 class="font-bold text-4xl ">THE FRONT</h3>
+            <p class="font-normal text-xl">The front is comfortable and <br>adjusts well to the shape of <br> your foot.</p>
+            <img src="images/arrow-2 1.png" alt="">
+        </div>
+        
+        <div class="max-w-full mt-48"><img src="images/how-it-works-image 1.png" alt="" class="h-[400px] mx-auto  w-full max-w-[500px]"></div>
+        <div class=" text-white max-w-[1440px] absolute top-[1250px] left-[42%]">
+            <img src="images/arrow-3 1.png" alt="">
+            <h3 class="font-bold text-4xl ">TRACTION</h3>
+            <p class="font-normal text-xl">The shoe has good traction and doesn't slip easily.</p>
+            
+        </div>
+        
+    </section>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="how-it-works" class="section-conatiner pt-20">
+    <h2 class="mt-10 text-white text-5xl font-bold flex justify-center">Have they finally made the <br> perfect workout shoe?</h2>
+    <div class=" text-white max-w-[1440px] absolute top-[800px] left-[161px]">
+        <h3 class="font-bold text-4xl ">THE HEEL</h3>
+        <p class="font-normal text-xl">The heel is well-built, has <br> appropriate elevation and is <br> not too rigid.</p>
+        <img src="images/arrow-1 1.png" alt="">
+    </div>
+    <div class=" text-white max-w-[1440px] absolute right-80 top-[750px]">
+        <h3 class="font-bold text-4xl ">THE FRONT</h3>
+        <p class="font-normal text-xl">The front is comfortable and <br>adjusts well to the shape of <br> your foot.</p>
+        <img src="images/arrow-2 1.png" alt="">
+    </div>
+    
+    <div class="max-w-full mt-48"><img src="images/how-it-works-image 1.png" alt="" class="h-[400px] mx-auto  w-full max-w-[500px]"></div>
+    <div class=" text-white max-w-[1440px] absolute top-[1250px] left-[42%]">
+        <img src="images/arrow-3 1.png" alt="">
+        <h3 class="font-bold text-4xl ">TRACTION</h3>
+        <p class="font-normal text-xl">The shoe has good traction and doesn't slip easily.</p>
+        
+    </div>
+    
+</section>
